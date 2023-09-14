@@ -1,0 +1,20 @@
+.slide-in
+{
+    animation: slideIn 4s linear 1;
+    position: relative;
+    transition: all .5s ease;
+}
+
+@keyframes slideIn
+{
+
+    from
+    {
+        opacity:0;
+    }
+    to
+    {
+        opacity:1;
+    }
+    
+}
